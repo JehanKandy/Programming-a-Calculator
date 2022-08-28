@@ -24,6 +24,10 @@ while True:
     
     choice = input("Enter Choice : ")
     if choice in ('1','2','3','4','5','6','7','8'):
+        if choice == '7':
+            break
+        if choice == '8':
+            reset()
         num1 = int(input("Enter First Number = "))
         num2 = int(input("Enter 2nd Number = "))
     
@@ -38,4 +42,7 @@ while True:
         elif choice == '5':
             print(num1, "^", num2, "=", power(num1,num2))    
         elif choice == '6':
-            print(num1, "%", num2, "=", remainder(num1,num2)) 
+            print(num1, "%", num2, "=", remainder(num1,num2))
+        elif choice == '7':
+            break
+        
