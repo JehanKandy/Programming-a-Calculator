@@ -7,7 +7,7 @@ def multiply(x,y):
 def divide(x,y):
     return x / y;
 def power(x,y):
-    return x ^ y;
+    return x ** y;
 
 while True:
     print("Select operation.")
